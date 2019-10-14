@@ -13,6 +13,7 @@ body, html{
   margin: 0 auto;
 }
 .titleheaders h2{
+  display: inline;
   font-family: arial;
   font-size: 25px;
   padding-left: 10px;
