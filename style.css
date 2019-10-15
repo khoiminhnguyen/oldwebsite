@@ -20,7 +20,7 @@ body, html{
   color: #5a5a5a;
   font-style: italic;
 }
-.img-info{
+.img-info {
   width: 100%;
 }
 .nav{
@@ -57,11 +57,12 @@ body, html{
   color: yellow;
 }
 .img-info h2{
-  padding-top: 30px;
-  padding-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 30px;
   font-family: arial;
-  font-size: 50px;
+  font-size: 30px;
   color: #1a1a1a;
   line-height:44px;
   margin-left: -5px;
@@ -72,6 +73,14 @@ body, html{
   font-size: 16px;
   color: #111;
   line-height: 24px;
+}
+.highlight{
+  background-color: yellow;
+  width: 330px;
+}
+.highlight2{
+  background-color: yellow;
+  width:260px;
 }
 .titletext{
   padding-top: 5px;
@@ -95,6 +104,7 @@ body, html{
   width: 100%;
 }
 
+
 @media only screen and (min-width: 768px) {
   .wrapper{
     padding-top: 35px;
@@ -102,7 +112,10 @@ body, html{
     margin: 0 auto
   }
   .img-info h2{
-    padding-top: 35px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 50px;
   }
   .img-info p{
     padding-top: 5px;
@@ -113,7 +126,7 @@ body, html{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .back{
-    background-color: #e8d846;
+    background-color: #f5f525;
     height: 60px;
     background-position: center;
     background-repeat: no-repeat;
@@ -166,6 +179,12 @@ body, html{
   .active {
     color: yellow;
   }
+  .highlight{
+    width: 520px;
+  }
+  .highlight2{
+    width: 400px;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -178,6 +197,12 @@ body, html{
   .titletext{
     padding-top: 40px;
     font-size: 40px;
+  }
+  .highlight{
+    width: 520px;
+  }
+  .highlight2{
+    width: 400px;
   }
 }
 @media only screen and (min-width: 1500px) {
