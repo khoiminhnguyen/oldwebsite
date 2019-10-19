@@ -60,11 +60,13 @@ body, html{
 }
 .highlight{
   background-color: yellow;
-  width: 130px;
+  width: 100px;
+  margin-left: 20px;
 }
 .highlight2{
   background-color: yellow;
-  width:185px;
+  width:155px;
+  margin-left: 20px;
 }
 .titleheaders h2{
   display: inline;
@@ -79,11 +81,11 @@ body, html{
 }
 .img-info h2{
   margin-top: 20px;
-  padding-left: 30px;
+  padding-left: 15px;
   font-family: arial;
   font-size: 20px;
   color: #1a1a1a;
-  line-height:40px;
+  line-height:30px;
   margin-left: -5px;
 }
 .img-info p{
@@ -135,16 +137,16 @@ body, html{
     border:none;
   }
   .highlight{
-    width: 255px;
+    width: 180px;
   }
   .highlight2{
-    width: 400px;
+    width: 300px;
   }
   .img-info h2{
     margin-top: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 50px;
+    font-size: 40px;
   }
   .img-info p{
     padding-top: 15px;
@@ -164,10 +166,10 @@ body, html{
     font-size: 40px;
   }
   .highlight{
-    width: 250px;
+    width: 180px;
   }
   .highlight2{
-    width: 400px;
+    width: 295px;
   }
 }
 @media only screen and (min-width: 1500px) {
