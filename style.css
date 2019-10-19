@@ -22,6 +22,9 @@ body, html{
   color: black;
   text-align: center;
 }
+.titletext b{
+  background-color: yellow;
+}
 .nav{
   display: block;
   position: -webkit-sticky;
