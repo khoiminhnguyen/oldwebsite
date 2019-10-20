@@ -1,12 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 body, html{
   height: 100%;
+
 }
 .back{
-  background-image: url(images/anner.jpg);
+  background-color:white;
   height: 60px;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +20,7 @@ body, html{
   padding-top: 17px;
   display:block;
   font-size: 25px;
-  font-family: arial;
+  font-family: 'Roboto Condensed', sans-serif;
   color: black;
   text-align: center;
 }
@@ -60,11 +62,13 @@ body, html{
 }
 .highlight{
   background-color: yellow;
-  width: 100px;
+  width: 75px;
+  margin-left: -6px;
 }
 .highlight2{
   background-color: yellow;
-  width:155px;
+  width:120px;
+  margin-left: -6px;
 }
 .highlight3{
   background-color: yellow;
@@ -84,15 +88,15 @@ body, html{
 .img-info h2{
   margin-top: 20px;
   padding-left: 15px;
-  font-family: arial;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
   color: #1a1a1a;
   line-height:30px;
-  margin-left: -5px;
+  margin-left: -10px;
 }
 .img-info p{
-  font-family: arial;
-  font-size: 12px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
   color: #111;
   line-height: 24px;
 }
@@ -117,14 +121,14 @@ body, html{
   padding-top: 20px;
 }
 .sideboxtext p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
   display: block;
   margin-left: 0px;
   padding-left: 0px;
   padding-top: 10px;
   padding-right: 0px;
   padding-bottom: 0px;
-  font-family: arial;
-  font-size: 12px;
   line-height: 15px;
   color: #111;
 }
@@ -159,15 +163,15 @@ body, html{
     border:none;
   }
   .highlight{
-    width: 180px;
+    width: 150px;
     margin-left: 20px;
   }
   .highlight2{
-    width: 300px;
+    width: 240px;
     margin-left: 20px;
   }
   .highlight3{
-    width: 143px;
+    width: 120px;
     margin-left: 20px;
   }
   .img-info h2{
@@ -175,10 +179,11 @@ body, html{
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 40px;
+    margin-left: -5px;
   }
   .img-info p{
     padding: 0px 30px 20px;
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 15px;
     padding-bottom: 10px;
   }
@@ -199,7 +204,7 @@ body, html{
     width:30%;
   }
   .sideboxhold{
-    height: 300px;
+    height: 210px;
   }
 }
 
@@ -215,14 +220,17 @@ body, html{
     font-size: 40px;
   }
   .highlight{
-    width: 180px;
+    width: 147px;
   }
   .highlight2{
-    width: 295px;
+    width: 240px;
   }
   .sideboxtext p{
     font-size: 16px;
     line-height: 24px;
+  }
+  .sideboxhold{
+    height: 280px;
   }
 }
 @media only screen and (min-width: 1500px) {
