@@ -63,7 +63,7 @@ body, html{
 }
 .highlight{
   background-color: yellow;
-  width: 75px;
+  width: 80px;
   margin-left: -6px;
 }
 .highlight2{
@@ -73,7 +73,7 @@ body, html{
 }
 .highlight3{
   background-color: yellow;
-  width:80px;
+  width:70px;
 }
 .titleheaders h2{
   display: inline;
