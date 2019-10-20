@@ -33,21 +33,9 @@
         <p> <i>Electronic Speed Controller (ESC)</i> </br>The ESC is a prebuilt motherboard designed for single motor use and comes with built in RC control. The controller firmware cannot be altered from factory presets. Thus, this is a temporary solution before I am able to acquire an ESC that supports variable braking. The current ESC is a 36V esc with a maximum current rating of 12A. With a different ESC, variable braking and acceleration can be programmed into percent throttle values and can also support multiple motors.</p>
 
         <p> <i>Motor</i> </br>Another key decision in the planning process was choosing between a brushless belt-driven motor and a hubless motor. The hubless motor has its motors built into the trucks, while the belt-driven motors use an external gear system and belt drives to push the board. While the hubless motors create a clean minimalistic aesthetic, I opted for a belt-driven motor because it makes the board more customizable and also easier to service if the motor fails. The current motor installed in the board is a 270kv brushless motor which uses 12-24V depending on ESC input. The motor has a power output of 1800W maximum. It is connected to the longboard trucks using a custom fitted mount and uses belts to drive the wheels of the skateboard.</p>
+
       </article>
-      <div class="imganddesc">
-        <img src="images/skateboard1.jpeg" alt="skateboard">
-        <p>Skateboard as of 10/18/19. Wires have yet to be connected. Plastic casing not printed yet.<p>
-      </div>
-    </div>
-    <br><br><br>
-    <div class ="radar">
-      <article class="img-info">
-        <div class="highlight2"><h2>Arduino Radar</h2></div>
-        <p>The Arduino Radar was my first exposure to microcontrollers and reinforced my knowledge on the basics of RF. The radar was created with an Arduino Mega, a microservo, and an ultrasonic sensor. As the motor drives the servo, The ultrasonic sensor pings out radio frequencies and then waits for returning frequencies. The Arduino then records the amount of time that it took for the wave to leave and return to the sensor. Then using the constant velocity formula, I calculated the distance of the object using the speed of sound. </p>
-        <p>For the visual representation of the radar, I used a premade Processing sonar code. It maps a sweeping motion that mimics that servo rotation and also objects that it scans onto the plot. The Arduino constantly outputs its angle to the processing file. Whenever an object is detected at the angle, the Arduino plots the object on the radar based on its position relative to the sensor. Currently, I am working on another a different kind of visualization of the ultrasonic sensor in which the radar is printed as a square sweep instead of a radial sweep. I plan on implenting a polar to rectangular coordinate function within the processing code in order to include this feature into the radar.</p>
-      </article>
-    </div>
-    </div>
+
 
   </body>
 </html
