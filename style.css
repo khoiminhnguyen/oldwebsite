@@ -106,6 +106,25 @@ body, html{
 .imganddesc img{
   width: 100%;
 }
+.radar{
+  margin-bottom: 50px;
+}
+.sideboximg{
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding-top: 20px;
+}
+.sideboxtext p{
+  display: block;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-top: 20px;
+  font-family: arial;
+  font-size: 12px;
+  line-height: 15px;
+  color: #111;
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -152,6 +171,22 @@ body, html{
     padding-top: 15px;
     padding-bottom: 10px;
   }
+  .sidebox{
+    width: 50%;
+    display: block;
+    padding: 0px;
+  }
+  .sideboxtext{
+    float:right;
+    width: 70%;
+  }
+  .sideboxtext p{
+    padding-left: 20px;
+  }
+  .sideboximg{
+    float:left;
+    width:30%;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -170,6 +205,10 @@ body, html{
   }
   .highlight2{
     width: 295px;
+  }
+  .sideboxtext p{
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 @media only screen and (min-width: 1500px) {

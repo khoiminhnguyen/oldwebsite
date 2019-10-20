@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Khoi Nguyen</title>
+    <title>About Me</title>
   </head>
 
   <body>
@@ -14,38 +14,24 @@
       <div class="nav">
       <ul>
         <li><a class="active" href="#home"><b>ABOUT ME</b></a></li>
-        <li><a href="#news"><b>PROJECTS</b></a></li>
+        <li><a href="projects.html"><b>PROJECTS</b></a></li>
         <li><a href="#contact"><b>CONTACT</b></a></li>
       </ul>
     </div>
     </div>
 
     <div class="wrapper">
-      <div class="titleheaders"> <h2> PROJECTS </h2> </div> <hr>
+      <div class="titleheaders"> <h2> ABOUT ME </h2> </div> <hr>
       <article class="img-info">
-      <div class="highlight"><h2>ESK8 V1</h2></div>
-      <div class="parbox">
-        <p>The premise of this two month project began when I asked a classmate how much his Boosted Board costed. From there, the premise was simple; How could I build a Boosted Board for as cheap as possible? The first month of the project was strictly focused on budgeting and creating a list of components with most importance. The second month involved compromising on certain aspects of the board while minimizing performance losses. Currently, the longboard is a running a single motor which utilizes 80mm wheels and runs on a 3:1 gear ratio. With the 5200mAh battery installed, the board has a theoretical range of 13 miles and a top speed of 30mph.</p>
-
-        <p> <i>Battery / Battery Management System (BMS)</i> </br>I wanted the board to not only be efficient as possible, but also make maintaining the board as simple as possible. Thus, I wanted an integrated BMS, so the board could be charged without requiring a balance charger. Originally, I planned on creating my own BMS and soldering it to two 22.2V lithium-polymer batteries connected in parallel. However, the price of the battery system alone would have taken up around $200, 66% of the current budget. Instead, I found a cheaper 36V 5200mAh lithium-ion battery with an integrated BMS and dc 2.1 connector for charging. </p>
-
-        <p> <i>Electronic Speed Controller (ESC)</i> </br>The ESC is a prebuilt motherboard designed for single motor use and comes with built in RC control. The controller firmware cannot be altered from factory presets. Thus, this is a temporary solution before I am able to acquire an ESC that supports variable braking. The current ESC is a 36V esc with a maximum current rating of 12A. With a different ESC, variable braking and acceleration can be programmed into percent throttle values and can also support multiple motors.</p>
-
-        <p> <i>Motor</i> </br>Another key decision in the planning process was choosing between a brushless belt-driven motor and a hubless motor. The hubless motor has its motors built into the trucks, while the belt-driven motors use an external gear system and belt drives to push the board. While the hubless motors create a clean minimalistic aesthetic, I opted for a belt-driven motor because it makes the board more customizable and also easier to service if the motor fails. The current motor installed in the board is a 270kv brushless motor which uses 12-24V depending on ESC input. The motor has a power output of 1800W maximum. It is connected to the longboard trucks using a custom fitted mount and uses belts to drive the wheels of the skateboard.</p>
-      </div>
       </article>
-      <div class="imganddesc">
-        <img src="images/skateboard1.jpeg" alt="menu">
-        <p>Skateboard as of 10/18/19. Wires have yet to be connected. Plastic casing not printed yet.<p>
-      </div>
+          <img class="sideboximg" src="images/logo.png" alt="CPP Engineering">
+          <div class="sideboxtext">
+          <p>Welcome! My name is Khoi Nguyen. Currently, I am a first-year electrical engineer at Cal Poly Pomona. I'm located in the Pomona and Orange county regions, but am open to relocation. I love coding and building things and I hope to work in the software side of E.E. in the future. Besides major specific hobbies, I love skateboarding and watching racing series like F1, WEC, and MotoGP.</p>
+          <p>Currently, I am a member in IEEE and a regenerative braking team member in the Cal Poly Pomona Formula SAE Electric team. I always lovw working on new things, so if you have a cool idea for a project or want to get in touch with me, contact me here.</p>
+          </div>
     <br><br><br>
-
-      <article class="img-info">
-        <div class="highlight2"><h2>Arduino Radar</h2></div>
-        <p>The Arduino Radar was my first exposure to microcontrollers and reinforced my knowledge on the basics of RF. The radar was created with an Arduino Mega, a microservo, and an ultrasonic sensor. As the motor drives the servo, The ultrasonic sensor pings out radio frequencies and then waits for returning frequencies. The Arduino then records the amount of time that it took for the wave to leave and return to the sensor. Then using the constant velocity formula, I calculated the distance of the object using the speed of sound. </p>
-        <p>For the visual representation of the radar, I used a premade Processing sonar code. It maps a sweeping motion that mimics that servo rotation and also objects that it scans onto the plot. The Arduino constantly outputs its angle to the processing file. Whenever an object is detected at the angle, the Arduino plots the object on the radar based on its position relative to the sensor. Currently, I am working on another a different kind of visualization of the ultrasonic sensor in which the radar is printed as a square sweep instead of a radial sweep. I plan on implenting a polar to rectangular coordinate function within the processing code in order to include this feature into the radar.</p>
-      </article>
     </div>
-  </body>
+    </div<
 
-</html
+  </body>
+</html>
