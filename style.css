@@ -32,7 +32,6 @@ body, html{
 }
 .nav{
   display: block;
-  position: -webkit-sticky;
   position: sticky;
   width: 80%;
   margin: auto;
@@ -56,6 +55,38 @@ body, html{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+.nav li img{
+  width: 30px;
+}
+.foot{
+  display: block;
+  position: sticky;
+  width: 40%;
+  margin: auto;
+}
+.foot ul {
+  font-family: arial;
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+  top: 0;
+  text-align: center;
+}
+.foot li {
+  float: left;
+  width: 33%;
+}
+.foot li a {
+  font-size: 10px;
+  display: block;
+  color: #1a1a1a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.foot li img{
+  width: 30px;
 }
 .wrapper{
   width: 90%;
@@ -100,6 +131,7 @@ body, html{
   font-size: 15px;
   color: #111;
   line-height: 24px;
+  padding-bottom: 5px;
 }
 .imganddesc{
   font-size: 14px;
