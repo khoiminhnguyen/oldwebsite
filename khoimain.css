@@ -2,14 +2,14 @@
 /* CSS Document */
 html{
         overflow-x: hidden;
-	overflow-y: visible;
+	overflow-y: hidden;
 	margin-left: calc(100vw - 100%);
 }
 
 body{
 	max-width: 100%;
 	overflow-x: hidden;
-	overflow-y: visible;
+	overflow-y: hidden;
 	position: relative;
 }
 *{
