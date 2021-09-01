@@ -87,12 +87,12 @@ body{
 		margin-top: -70px;
 		margin-left: 1vw;
 	}
-	.textbox1 button{
+	.textbox1 a{
 		font-size: 1vw;
-		margin-top: 30px;
-		margin-left: 50%;
-		padding: 1.5vh 2vw;
+		margin-left: 40%;
+		text-decoration: none;
 		background-color: white;
+		padding: 1vw 2vw;
 		color: black;
 		border: 2px solid #555555;
 		cursor: pointer;
@@ -380,9 +380,9 @@ body{
 		margin-top: -2vh;
 		font-size: 3vh;
 	}
-	.textbox1 button{
+	.textbox1 a{
 		font-size: 1.5vh;
-		margin-left: vw;
+		margin-left: 1vw;
 	}
 	.car_image{
 		display: none;
@@ -446,9 +446,9 @@ body{
 		margin-top: -2vh;
 		font-size: 3vh;
 	}
-	.textbox1 button{
+	.textbox1 a{
 		font-size: 1.5vw;
-		margin-left: 0vw;
+		margin-left: 15vw;
 	}
 	.car_image{
 		display: block;
@@ -471,9 +471,12 @@ body{
 		margin-top: 1vh;
 	}
 	.sat_image{
-		margin-left: 58vw;
-		width: 60vw;
-		transform: translateY(15%) rotate(30deg);
+		display: none;
+	}
+	.nglogo{
+		display: block;
+		height: 45vh;
+		transform: translateX(70vw) translateY(-5vh)
 	}
 	.textbox3{
 		margin-top: 0vw;
@@ -491,7 +494,11 @@ body{
 		font-size: 1.5vw;
 	}
 	.f35_image{
+		display: none; 
+	}
+	.l3logo{
+		display: block;
 		height: 50vh;
-		transform: translateX(-20%) translateY(25%) rotate(20deg)scaleX(-1); 
+		transform: translateY(20vh);
 	}
 }
