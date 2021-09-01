@@ -131,9 +131,8 @@ body, html{
 	.titlepage3{
 		width: 100%;
 		background-color: #D92B1D;
-		height: 110vh;
-		overflow-x: hidden;
-		overflow-y: hidden;
+		height: 100vh;
+		overflow: hidden;
 		position: absolute;
 	}
 	.textbox3{
@@ -405,7 +404,7 @@ body, html{
 	}
 	.f35_image{
 		height: 90vw;
-		transform: translateX(-77%) translateY(155%) rotate(20deg)scaleX(-1); 
+		transform: translateX(-77%) translateY(145%) rotate(20deg)scaleX(-1); 
 	}
 }
 @media (max-width: 812px) and (max-height: 414px){
