@@ -1,11 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-html{
-        overflow-x: hidden;
-	margin-left: calc(100vw - 100%);
-}
-
-body{
+body, html{
 	max-width: 100%;
 	overflow-x: hidden;
 }
@@ -20,7 +15,8 @@ body{
 	padding-right: 5%;
 	padding-left: 5%;
 	box-sizing: border-box;
-	position: absolute;
+	position: -webkit-sticky;
+	position: sticky;
 	top: 2vw;
 }
 .nav_bar{
@@ -100,7 +96,7 @@ body{
 		width: 100%;
 		margin-top: 100vh;
 		background-color: black;
-		height: 100vh;
+		height: 110vh;
 	}
 	.textbox2{
 		margin-right: 10vw;
@@ -130,11 +126,13 @@ body{
 		transform: translateY(20%) rotate(20deg);
 		width: 100vh;
 		float: left;
+		overflow: hidden;
 	}
 	.titlepage3{
 		width: 100%;
 		background-color: #D92B1D;
 		height: 100vh;
+		overflow: hidden;
 		position: absolute;
 	}
 	.textbox3{
@@ -164,6 +162,7 @@ body{
 		height: 70vh;
 		position: absolute;
 		float: right;
+		overflow: hidden;
 	}
 
 	.dropbtn {
