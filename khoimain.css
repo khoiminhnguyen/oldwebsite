@@ -295,6 +295,7 @@ body{
 		margin-top: 1vh;
 	}
 	.sat_image{
+		margin-right: 0px;
 		margin-left: -40vw;
 		transform: translateY(15%) rotate(20deg);
 	}
