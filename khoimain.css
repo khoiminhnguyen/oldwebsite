@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
-body, html{
+html{
+	overflow-x: hidden;
+}
+
+body{
 	max-width: 100%;
 	overflow-x: hidden;
 }
