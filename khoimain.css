@@ -176,7 +176,12 @@ body{
 		float: right;
 		overflow-x: hidden !important;
 	}
-
+	.nglogo{
+		display: none;
+	}
+	.l3logo{
+		display: none;
+	}
 	.dropbtn {
 		display: none;
 	}
@@ -402,13 +407,18 @@ body{
 		margin-top: 1vh;
 	}
 	.sat_image{
-		margin-left: -45vw;
-		transform: translateY(53%) rotate(20deg);
-		overflow-x: hidden !important;
+		display: none;
+	}
+	.nglogo{
+		display: block;
 	}
 	.textbox3{
 		margin-top: 8vw;
 		width: 80vw;
+	}
+	.l3logo{
+		display: block;
+		transform: translateX(22vw)
 	}
 	.textbox3 .subtitle{
 		margin-top: -1vh;
@@ -417,9 +427,7 @@ body{
 		font-size: 2vh;
 	}
 	.f35_image{
-		height: 20vh;
-		transform: translateX(-80vw) translateY(56vh) rotate(0deg)scaleX(-1);
-		overflow-x: hidden !important;
+		display: none;
 	}
 }
 @media (max-width: 812px) and (max-height: 414px){
