@@ -2,15 +2,12 @@
 /* CSS Document */
 html{
         overflow-x: hidden;
-	overflow-y: scroll;
 	margin-left: calc(100vw - 100%);
 }
 
 body{
 	max-width: 100%;
 	overflow-x: hidden;
-	overflow-y: scroll;
-	position: relative;
 }
 *{
 	margin: 0;
