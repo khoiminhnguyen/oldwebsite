@@ -309,6 +309,7 @@ body{
 	}
 	.f35_image{
 		height: 70vw;
+		margin-right: 0px;
 		transform: translateX(-75%) translateY(88%) rotate(-20deg)scaleX(1); 
 	}
 }
