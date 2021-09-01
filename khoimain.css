@@ -133,6 +133,7 @@ body, html{
 		background-color: #D92B1D;
 		height: 110vh;
 		overflow-x: hidden;
+		overflow-y: hidden;
 		position: absolute;
 	}
 	.textbox3{
