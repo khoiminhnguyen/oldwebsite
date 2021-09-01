@@ -24,8 +24,7 @@ body, html{
 	padding-right: 5%;
 	padding-left: 5%;
 	box-sizing: border-box;
-	position: -webkit-sticky;
-	position: sticky;
+	position: absolute;
 	top: 2vw;
 }
 .nav_bar{
