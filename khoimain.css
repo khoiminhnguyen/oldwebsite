@@ -413,8 +413,8 @@ body{
 		font-size: 2vh;
 	}
 	.f35_image{
-		height: 40vh;
-		transform: translateX(-77%) translateY(56vh) rotate(0deg)scaleX(-1);
+		height: 20vh;
+		transform: translateX(-80vw) translateY(56vh) rotate(0deg)scaleX(-1);
 		overflow-x: hidden !important;
 	}
 }
@@ -436,7 +436,7 @@ body{
 	}
 	.textbox1 button{
 		font-size: 1.5vw;
-		margin-left: vw;
+		margin-left: 0vw;
 	}
 	.car_image{
 		display: block;
