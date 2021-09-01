@@ -283,7 +283,7 @@ body{
 	}
 	.textbox2{
 		margin-right: 15vw;
-		margin-top: 31vh;
+		margin-top: 20vh;
 		padding: 20px;
 		width: 40vw;
 		float: right;
@@ -297,7 +297,7 @@ body{
 	.sat_image{
 		margin-left: -50vw;
 		margin-right: 0px;
-		transform: translateY(15%) rotate(20deg);
+		transform: translateY(10%) rotate(12.5deg);
 	}
 	.textbox3{
 		margin-top: 8vw;
