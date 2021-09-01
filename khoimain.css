@@ -382,7 +382,7 @@ body{
 		transform: translateX(15vw) translateY(-13vh);
 		height: 60vh;
 		display: block;
-		overflow-x: hidden;
+		overflow-x: hidden !important;
 	}
 	.textbox2{
 		margin-right: 4vw;
@@ -400,6 +400,7 @@ body{
 	.sat_image{
 		margin-left: -45vw;
 		transform: translateY(53%) rotate(20deg);
+		overflow-x: hidden !important;
 	}
 	.textbox3{
 		margin-top: 8vw;
@@ -413,7 +414,8 @@ body{
 	}
 	.f35_image{
 		height: 40vh;
-		transform: translateX(-77%) translateY(56vh) rotate(0deg)scaleX(-1); 
+		transform: translateX(-77%) translateY(56vh) rotate(0deg)scaleX(-1);
+		overflow-x: hidden !important;
 	}
 }
 @media (max-width: 812px) and (max-height: 414px){
