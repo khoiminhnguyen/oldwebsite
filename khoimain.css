@@ -3,13 +3,14 @@
 html{
     overflow-x: hidden;
 	margin: 0;
+	positon: fixed;
 }
 
 body{
-	max-width: 100%;
-	overflow-x: hidden;
+	width: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden !important;
 	margin: 0;
-	positon: fixed;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -66,7 +67,7 @@ body{
 	}
 	.titlepage{
 		width: 100%;
-		position: absolute;
+		position: relative;
 		height: 100vh;
 	}
 	.textbox1{
@@ -103,7 +104,6 @@ body{
 
 	.titlepage2{
 		width: 100%;
-		margin-top: 100vh;
 		background-color: black;
 		height: 100vh;
 	}
@@ -135,12 +135,13 @@ body{
 		transform: translateY(20%) rotate(20deg);
 		width: 100vh;
 		float: left;
+		overflow-x: hidden;
 	}
 	.titlepage3{
 		width: 100%;
 		background-color: #D92B1D;
 		height: 100vh;
-		position: absolute;
+		position: relative;
 	}
 	.textbox3{
 		margin-left: 5vw;
@@ -331,7 +332,7 @@ body{
 		margin-top: 1vh;
 	}
 	.sat_image{
-		margin-left: -5vw;
+		margin-left: -4vw;
 		transform: translateY(20%) rotate(20deg);
 	}
 	.textbox3{
@@ -363,7 +364,7 @@ body{
 	.textbox1{
 		margin-left: 5vw;
 		margin-top: 20vh;
-		width: 90vw;
+		width: 85vw;
 	}
 	.textbox1 p{
 		margin-top: -2vh;
@@ -377,7 +378,7 @@ body{
 		display: none;
 	}
 	.car_logo{
-		transform: translateX(12%) translateY(-10%);
+		transform: translateX(15vw) translateY(-13vh);
 		height: 60vh;
 		display: block;
 		overflow-x: hidden;
@@ -396,7 +397,7 @@ body{
 		margin-top: 1vh;
 	}
 	.sat_image{
-		margin-left: -56vw;
+		margin-left: -45vw;
 		transform: translateY(53%) rotate(20deg);
 	}
 	.textbox3{
@@ -410,8 +411,8 @@ body{
 		font-size: 2vh;
 	}
 	.f35_image{
-		height: 90vw;
-		transform: translateX(-77%) translateY(145%) rotate(20deg)scaleX(-1); 
+		height: 40vh;
+		transform: translateX(-77%) translateY(56vh) rotate(0deg)scaleX(-1); 
 	}
 }
 @media (max-width: 812px) and (max-height: 414px){
