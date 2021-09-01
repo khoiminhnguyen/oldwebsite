@@ -2,6 +2,7 @@
 /* CSS Document */
 html{
         overflow-x: hidden;
+	margin-left: calc(100vw - 100%);
 }
 
 body{
