@@ -309,7 +309,7 @@ body{
 	}
 	.f35_image{
 		height: 70vw;
-		transform: translateX(-60%) translateY(90%) rotate(20deg)scaleX(-1); 
+		transform: translateX(-75%) translateY(88%) rotate(-20deg)scaleX(1); 
 	}
 }
 @media (max-width: 1024px) and (max-height: 768px){
