@@ -69,6 +69,7 @@ body{
 		width: 100%;
 		position: relative;
 		height: 100vh;
+		overflow: hidden;
 	}
 	.textbox1{
 		margin-left: 5vw;
@@ -107,6 +108,7 @@ body{
 		width: 100%;
 		background-color: black;
 		height: 100vh;
+		overflow: hidden;
 	}
 	.textbox2{
 		margin-right: 10vw;
@@ -142,6 +144,7 @@ body{
 		width: 100%;
 		background-color: #D92B1D;
 		height: 100vh;
+		overflow: hidden;
 	}
 	.textbox3{
 		margin-left: 5vw;
