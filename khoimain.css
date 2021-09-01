@@ -379,6 +379,7 @@ body{
 		transform: translateX(12%) translateY(-10%);
 		height: 60vh;
 		display: block;
+		overflow-x: hidden;
 	}
 	.textbox2{
 		margin-right: 4vw;
