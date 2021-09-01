@@ -1,488 +1,82 @@
-@charset "utf-8";
-/* CSS Document */
-html{
-    overflow-x: hidden;
-	margin: 0;
-	positon: fixed;
-}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Khoi Nguyen</title>
+<link href="khoimain.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, minimum-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
 
-body{
-	width: 100%;
-	overflow-y: hidden;
-	overflow-x: hidden !important;
-	margin: 0;
-	-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-*{
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-}
-
-.nav_container{
-	width: 100%;
-	padding-right: 5%;
-	padding-left: 5%;
-	box-sizing: border-box;
-	position: absolute;
-	top: 2vw;
-}
-.nav_bar{
-	width: 100%;
-	display: flex;
-	align-items: center;
-}
-.car_logo{
-		display: none;
-}
-@media (max-width: 3000px) {
-	.logo_large{
-		font-size: 5vh;
-		font-weight: bold;
-		background-color: black;
-		color: white;
-		padding: 0.3vh;
-	}
-	.logo_small{
-		display: none;
-	}
-	.car_logo{
-		display: none;
-	}
-	nav{
-		flex: 1;
-		text-align: right;
-	}
-	nav ul li{
-		list-style: none;
-		display: inline-block;
-		margin-right: 30px;
-	}
-	nav ul li a{
-		text-decoration: none;
-		color: black;
-		font-size: 2vh;
-	}
-	.titlepage{
-		width: 100%;
-		position: relative;
-		height: 100vh;
-		overflow: hidden !important;
-	}
-	.textbox1{
-		margin-left: 5vw;
-		margin-top: 25vh;
-		padding: 20px;
-		width: 40vw;
-		float: left;
-	}
-	.textbox1 h1{
-		font-size: 17vw;
-	}
-	.textbox1 p{
-		font-size: 2vw;
-		margin-top: -70px;
-		margin-left: 1vw;
-	}
-	.textbox1 button{
-		font-size: 1vw;
-		margin-top: 30px;
-		margin-left: 50%;
-		padding: 1.5vh 2vw;
-		background-color: white;
-		color: black;
-		border: 2px solid #555555;
-		cursor: pointer;
-	}
-	.car_image{
-		transform: translateY(40%);
-		height: 65vh;
-		position: absolute;
-		float: right;
-		overflow-x: hidden !important;
-	}
-
-	.titlepage2{
-		width: 100%;
-		background-color: black;
-		height: 100vh;
-		overflow: hidden !important;
-	}
-	.textbox2{
-		margin-right: 10vw;
-		margin-top: 33vh;
-		padding: 20px;
-		width: 40vw;
-		float: right;
-	}
-	.textbox2 h1{
-		color: white;
-		font-size: 7vw;
-	}
-	.textbox2 .subtitle{
-		margin-left: 1vw;
-		color: white;
-		font-size: 1.5vw;
-		margin-top: 0.5vh;
-	}
-	.textbox2 .paragraph{
-		margin-left: 1vw;
-		font-size: 1vw;
-		color: white;
-	}
-	.sat_image{
-		margin-left: 7vw;
-		position: absolute;
-		transform: translateY(20%) rotate(20deg);
-		width: 100vh;
-		float: left;
-		overflow-x: hidden !important;
-	}
-	.titlepage3{
-		width: 100%;
-		background-color: #D92B1D;
-		height: 100vh;
-		overflow: hidden !important;
-	}
-	.textbox3{
-		margin-left: 5vw;
-		margin-top: 35vh;
-		padding: 20px;
-		width: 60vw;
-		float: left;
-	}
-	.textbox3 h1{
-		font-size: 17vw;
-		color: white;
-	}
-	.textbox3 .subtitle{
-		margin-left: 1vw;
-		color: white;
-		font-size: 1.5vw;
-		margin-top: -6vh;
-	}
-	.textbox3 .paragraph{
-		margin-left: 1vw;
-		font-size: 1vw;
-		color: white;
-	}
-	.f35_image{
-		transform: translateX(-25%) translateY(30%) scaleX(-1);
-		height: 70vh;
-		position: absolute;
-		float: right;
-		overflow-x: hidden !important;
-	}
-
-	.dropbtn {
-		display: none;
-	}
-	.dropdown-content {
-		display: none;
-	}
-}
-
-@media (max-width: 1366px){
-	nav ul li a{
-		display: none;
-	}
+<body>
 	
-	.dropbtn {
-		display: block;
-		background-color: white;
-		cursor: pointer;
-		text-decoration: none;
-		border: none;
-	}
+	<div id = "rivianid" class = "titlepage">
+		<div data-aos="fade-right" data-aos-duration="3000"><div class = "textbox1">
+			<h1>RIVIAN</h1>
+			<p>Engineering Intern - Vendor Electronics</p>
+			<button onclick="window.location.href=''">Learn More</button>
+			</div></div>
+		<div data-aos="fade-left" data-aos-duration="3000"><img src="rivian.png" class = "car_image"><img src="rivianlogo.png" class = "car_logo"></div>
+	</div>
+	<div id = "northropid" class = "titlepage2">
+		<div data-aos="fade-left" data-aos-duration="3000"><div class = "textbox2">
+			<h1>NORTHROP GRUMMAN</h1>
+			<p class = "subtitle">Engineering Intern - Systems Engineering</p>
+			<p class = "paragraph">
+				Worked on proprietary ground simulator that models ground/satellite communications which is meant to train operators on system parameters before physical satellite gets launched. 
+				Wrote Python automated test script in order to automatically test system requirements 
+				artificially faulted system by sending bit files to fpga’s 
+				verified that antenna control boards behave within hardware limitations
+				verified that the simulator maintains datapath flow validity despite board failures or application switching
+			</p>
+		</div></div>
+		<img src="northrop.png" class = "sat_image">
+	</div>
+	<div id = "l3id" class = "titlepage3">
+		<div data-aos="fade-right" data-aos-duration="3000"><div class = "textbox3">
+			<h1>L3 IEC</h1>
+			<p class = "subtitle">Engineering Intern - Test Engineering</p>
+			<p class = "paragraph">
+				Learned basics of digital signal processing and simulated modulated signals in MATLAB
+				Created auditing system for manager, tracking employee hours on specific government projects
+				Led intern robotic team and competed against senior employees
+				<br><br>
+				Taught professional etiquette to high school students in the Garden Grove Unified School District
+				Served as a liaison between L3 IEC and students interviewing for the company
+				Spoke to group of 200 students about how to interview with companies and how to make their summer internship a true learning experience
 
-	.dropdown {
-		display: inline-block;
-	}
 
-	.dropdown-content {
-		display: none;
-		position: absolute;
-		background-color: #f9f9f9;
-		min-width: 160px;
-		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		z-index: 1;
-		right: 0;
-	}
-
-	.dropdown-content a {
-		font-size: 30px;
-		color: black;
-		padding: 17px 21px;
-		text-decoration: none;
-		display: block;
-	}
-
-	.dropdown-content a:hover {background-color: #f1f1f1}
-
-	.dropdown:hover .dropdown-content {
-		display: block;
-	}
-	
-	.textbox1{
-		margin-left: 5vw;
-		margin-top: 10vh;
-	}
-	.textbox1 p{
-		margin-top: -4vh;
-	}
-	.textbox1 button{
-		font-size: 1.5vh;
-		margin-left: 1vw;
-	}
-	.car_image{
-		transform: translateY(40%) translateX(-10%);
-	}
-	.textbox2{
-		margin-right: 10vw;
-		margin-top: 33vh;
-		padding: 20px;
-		width: 40vw;
-		float: right;
-	}
-	.sat_image{
-		margin-left: -4vw;
-		transform: translateY(25%) rotate(20deg);
-	}
-	.textbox3 .subtitle{
-		margin-top: -4vh;
-	}
-}
-
-@media (max-width: 1024px) and (max-height: 1366px){
-	nav ul li a{
-		display: none;
-	}
-	.textbox1{
-		margin-left: 5vw;
-		margin-top: 10vh;
-
-	}
-	.textbox1 p{
-		margin-top: -2vh;
-		font-size: 1.5vh;
-	}
-	.textbox1 button{
-		font-size: 1.5vh;
-		margin-left: 1vw;
-	}
-	.car_image{
-		transform: translateY(40%) translateX(-20%);
-	}
-	.textbox2{
-		margin-right: 4vw;
-		margin-top: 31vh;
-		padding: 20px;
-		width: 40vw;
-		float: right;
-	}
-	.textbox2 .subtitle, .textbox2 .paragraph{
-		font-size: 1.5vh;
-	}
-	.textbox2 .paragraph{
-		margin-top: 1vh;
-	}
-	.sat_image{
-		margin-left: -40vw;
-		transform: translateY(15%) rotate(20deg);
-	}
-	.textbox3{
-		margin-top: 8vw;
-	}
-	.textbox3 .subtitle{
-		margin-top: -1vh;
-	}
-	.textbox3 .subtitle, .textbox3 .paragraph{
-		font-size: 1.5vh;
-	}
-	.f35_image{
-		height: 70vw;
-		transform: translateX(-60%) translateY(90%) rotate(20deg)scaleX(-1); 
-	}
-}
-@media (max-width: 1024px) and (max-height: 768px){
-	.textbox1{
-		margin-left: 5vw;
-		margin-top: 10vh;
-	}
-	.textbox1 p{
-		margin-top: -2vh;
-		font-size: 2vh;
-	}
-	.textbox1 button{
-		font-size: 1.5vh;
-		margin-left: 1vw;
-	}
-	.car_image{
-		transform: translateY(40%) translateX(-20%);
-	}
-	.textbox2{
-		margin-right: 4vw;
-		margin-top: 25vh;
-		padding: 20px;
-		width: 40vw;
-		float: right;
-	}
-	.textbox2 .subtitle, .textbox2 .paragraph{
-		font-size: 2vh;
-	}
-	.textbox2 .paragraph{
-		margin-top: 1vh;
-	}
-	.sat_image{
-		margin-left: -4vw;
-		transform: translateY(20%) rotate(20deg);
-	}
-	.textbox3{
-		margin-top: 8vw;
-	}
-	.textbox3 .subtitle{
-		margin-top: -1vh;
-	}
-	.textbox3 .subtitle, .textbox3 .paragraph{
-		font-size: 2vh;
-	}
-	.f35_image{
-		height: 40vw;
-		transform: translateX(-60%) translateY(120%) rotate(20deg)scaleX(-1); 
-	}
-}
-@media (max-width: 414px) and (max-height: 812px){
-	.logo_large{
-		display: none;
-	}
-	.logo_small{
-		display: block;
-		font-size: 5vh;
-		font-weight: bold;
-		background-color: black;
-		color: white;
-		padding: 0.4vh;
-	}
-	.textbox1{
-		margin-left: 5vw;
-		margin-top: 20vh;
-		width: 85vw;
-	}
-	.textbox1 p{
-		margin-top: -2vh;
-		font-size: 3vh;
-	}
-	.textbox1 button{
-		font-size: 1.5vh;
-		margin-left: vw;
-	}
-	.car_image{
-		display: none;
-	}
-	.car_logo{
-		transform: translateX(15vw) translateY(-13vh);
-		height: 60vh;
-		display: block;
-		overflow-x: hidden !important;
-	}
-	.textbox2{
-		margin-right: 4vw;
-		margin-top: 5vh;
-		padding: 20px;
-		width: 80vw;
-		float: right;
-	}
-	.textbox2 .subtitle, .textbox2 .paragraph{
-		font-size: 2vh;
-	}
-	.textbox2 .paragraph{
-		margin-top: 1vh;
-	}
-	.sat_image{
-		margin-left: -45vw;
-		transform: translateY(53%) rotate(20deg);
-		overflow-x: hidden !important;
-	}
-	.textbox3{
-		margin-top: 8vw;
-		width: 80vw;
-	}
-	.textbox3 .subtitle{
-		margin-top: -1vh;
-	}
-	.textbox3 .subtitle, .textbox3 .paragraph{
-		font-size: 2vh;
-	}
-	.f35_image{
-		height: 20vh;
-		transform: translateX(-80vw) translateY(56vh) rotate(0deg)scaleX(-1);
-		overflow-x: hidden !important;
-	}
-}
-@media (max-width: 812px) and (max-height: 414px){
-	.logo_large{
-		display: block;
-	}
-	.logo_small{
-		display: none;
-	}
-	.textbox1{
-		margin-left: 5vw;
-		margin-top: 20vh;
-		width: 90vw;
-	}
-	.textbox1 p{
-		margin-top: -2vh;
-		font-size: 3vh;
-	}
-	.textbox1 button{
-		font-size: 1.5vw;
-		margin-left: 0vw;
-	}
-	.car_image{
-		display: block;
-		transform: translateX(75%) translateY(50%);
-	}
-	.car_logo{
-		display: none;
-	}
-	.textbox2{
-		margin-right: 14vw;
-		margin-top: 5vh;
-		padding: 20px;
-		width: 80vw;
-		float: right;
-	}
-	.textbox2 .subtitle, .textbox2 .paragraph{
-		font-size: 1.5vw;
-	}
-	.textbox2 .paragraph{
-		margin-top: 1vh;
-	}
-	.sat_image{
-		margin-left: 58vw;
-		width: 60vw;
-		transform: translateY(15%) rotate(30deg);
-	}
-	.textbox3{
-		margin-top: 0vw;
-		margin-left: 0vw;
-		width: 60vw;
-	}
-	.textbox3 h1{
-		font-size: 10vw;
-	}
-	.textbox3 .subtitle{
-		margin-top: -1.5vw;
-		font-size: 1.5vw;
-	}
-	.textbox3 .subtitle, .textbox3 .paragraph{
-		font-size: 1.5vw;
-	}
-	.f35_image{
-		height: 50vh;
-		transform: translateX(-20%) translateY(25%) rotate(20deg)scaleX(-1); 
-	}
-}
+			</p>
+		</div></div>
+		<img src="l3.png" class = "f35_image">
+	</div>
+	<div class = "nav_container">
+		<div class = "nav_bar">
+			<div data-aos="fade-down" data-aos-duration="3000"><div class = "logo_large">KHOI NGUYEN</div><div class = "logo_small">KN</div></div>
+			<nav>
+				<ul>
+					<li><a href="#rivianid">Rivian</a></li>
+					<li><a href="#northropid">Northrop Grumman</a></li>
+					<li><a href="#l3id">L3 IEC</a></li>
+					<li><a href="https://docs.google.com/document/d/1UL4uUA7EP6CMuGkQOuOCuGX_CeTuwXxSpNr4F12MhzI/edit?usp=sharing">Resume</a></li>
+					<li><a href="#rivianid">Projects</a></li>
+					<li><a href="#rivianid">About</a></li>
+				</ul>
+			</nav>
+			<div class="dropdown">
+		  		<button class="dropbtn"><img src = "dropdownmenu.png" width = "40"></button>
+		  		<div class="dropdown-content">
+				  	<a href="#rivianid">Rivian</a>
+				  	<a href="#northropid">Northrop Grumman</a>
+				  	<a href="#l3id">L3 IEC</a>
+		  		</div>
+			</div>
+	  	</div>
+	</div>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  	<script>
+    		AOS.init();
+	</script>
+</body>
+</html>
