@@ -131,13 +131,11 @@ body{
 		transform: translateY(20%) rotate(20deg);
 		width: 100vh;
 		float: left;
-		overflow: hidden;
 	}
 	.titlepage3{
 		width: 100%;
 		background-color: #D92B1D;
 		height: 100vh;
-		overflow: hidden;
 		position: absolute;
 	}
 	.textbox3{
@@ -167,7 +165,6 @@ body{
 		height: 70vh;
 		position: absolute;
 		float: right;
-		overflow: hidden;
 	}
 
 	.dropbtn {
