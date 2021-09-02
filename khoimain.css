@@ -38,7 +38,7 @@ body{
 .car_logo{
 		display: none;
 }
-@media (max-width: 3000px) {
+@media (max-width: 3072px) {
 	.logo_large{
 		font-size: 5vh;
 		font-weight: bold;
