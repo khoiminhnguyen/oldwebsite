@@ -38,11 +38,11 @@ body{
 .car_logo{
 		display: none;
 }
-@media (max-width: 3000px) {
+@media (max-width: 8000px) {
 	.logo_large{
 		font-size: 5vh;
 		font-weight: bold;
-		background-color: black;
+		background-color: #ED1C24;
 		color: white;
 		padding: 0.3vh;
 	}

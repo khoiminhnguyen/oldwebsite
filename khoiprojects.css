@@ -38,11 +38,11 @@ body{
 .car_logo{
 		display: none;
 }
-@media (max-width: 3000px) {
+@media (max-width: 8000px) {
 	.logo_large{
 		font-size: 5vh;
 		font-weight: bold;
-		background-color: black;
+		background-color: #ED1C24;
 		color: white;
 		padding: 0.3vh;
 	}
@@ -76,7 +76,8 @@ body{
 		margin-left: 5vw;
 		margin-top: 15vh;
 		padding: 20px;
-		width: 40vw;
+		width: 60vw;
+		color: black;
 	}
 	.textbox1 h1{
 		font-size: 6vw;
@@ -86,42 +87,15 @@ body{
 		margin-top: -10px;
 		margin-left: 0vw;
 	}
-
-	.textbox1 a{
-		font-size: 1vw;
-		margin-left: 40%;
-		text-decoration: none;
-		background-color: white;
-		padding: 1vw 2vw;
-		color: black;
-		border: 2px solid #555555;
-		cursor: pointer;
-	}
 	.textbox1a{
-		margin-left: 45vw;
-		margin-top: 10vh;
+		margin-left: 0vw;
+		margin-top: vh;
 		padding: 20px;
 		width: 50vw;
 	}
 	.textbox1a {
 		text-align: right;
 		font-size: 2vw
-	}
-	.saturn_image{
-		margin-left: 40vw;
-		transform: translateY(-180vh) rotate(30deg);
-		height: 200vh;
-		float: left;
-		position: absolute;
-		overflow-x: hidden !important;
-	}
-	.liquid_image{
-		margin-left: 110vw;
-		height: 30vh;
-		transform: rotate(120deg) translateY(175vh);
-		float: left;
-		position: absolute;
-		overflow-x: hidden !important;
 	}
 	.lrl_logo{
 		display: none;
@@ -129,12 +103,12 @@ body{
 }
 	.titlepage2{
 		width: 100%;
-		background-color: black;
+		background-color: #CEB888;
 		height: 100vh;
 		overflow: hidden !important;
 	}
 	.textbox2{
-		margin-right: 10vw;
+		margin-right: 20vw;
 		margin-top: 33vh;
 		padding: 20px;
 		width: 40vw;
@@ -142,84 +116,37 @@ body{
 	}
 	.textbox2 h1{
 		color: white;
-		font-size: 7vw;
+		font-size: 5vw;
 	}
-	.textbox2 .subtitle{
-		margin-left: 1vw;
-		color: white;
-		font-size: 1.5vw;
-		margin-top: 0.5vh;
-	}
+
 	.textbox2 .paragraph{
-		margin-left: 1vw;
+		margin-left: 0.5vw;
 		font-size: 1vw;
 		color: white;
 	}
-	.sat_image{
-		margin-left: 7vw;
-		position: absolute;
-		transform: translateY(20%) rotate(20deg);
-		width: 100vh;
-		float: left;
-		overflow-x: hidden !important;
-	}
-	.nglogo{
-		display: none;
-	}
-	.l3logo{
-		display: none;
-	}
-	.dropbtn {
-		display: none;
-	}
-	.dropdown-content {
-		display: none;
-	}
-@media (max-width: 1920px) {
-	.textbox1a{
-		margin-left: 45vw;
-		margin-top: -10vh;
-		padding: 20px;
-		width: 50vw;
-	}
-	.textbox1a {
-		text-align: right;
-		font-size: 2vw
-	}
 	.saturn_image{
-		margin-left: 41vw;
-		transform: translateY(-180vh) rotate(30deg);
-		height: 200vh;
-		float: left;
+		margin-left: 30vw;
+		transform: translateY(10vh);
 		position: absolute;
-		overflow-x: hidden !important;
-	}
-	.liquid_image{
-		margin-left: 97vw;
-		height: 30vh;
-		transform: rotate(120deg) translateY(175vh);
+		height: 80vh;
 		float: left;
-		position: absolute;
 		overflow-x: hidden !important;
-	}
-	.lrl_logo{
-		display: none;
 	}
 	.titlepage3{
 		width: 100%;
-		background-color: #D92B1D;
+		background-color: #00843D;
 		height: 100vh;
 		overflow: hidden !important;
 	}
 	.textbox3{
 		margin-left: 5vw;
-		margin-top: 35vh;
+		margin-top: 15vh;
 		padding: 20px;
-		width: 60vw;
+		width: 50vw;
 		float: left;
 	}
 	.textbox3 h1{
-		font-size: 17vw;
+		font-size: 8vw;
 		color: white;
 	}
 	.textbox3 .subtitle{
@@ -229,22 +156,50 @@ body{
 		margin-top: -6vh;
 	}
 	.textbox3 .paragraph{
-		margin-left: 1vw;
+		margin-left: 0.5vw;
 		font-size: 1vw;
 		color: white;
 	}
-	.f35_image{
-		transform: translateX(-25%) translateY(30%) scaleX(-1);
-		height: 70vh;
+	.lrl_image{
+		transform: translateX(-0vw) translateY(20vh) ;
+		height: 30vw;
 		position: absolute;
 		float: right;
 		overflow-x: hidden !important;
 	}
-	.nglogo{
+	.satlogo{
 		display: none;
 	}
-	.l3logo{
+	.lrllogo{
 		display: none;
+	}
+	.titlepage4{
+		width: 100%;
+		background-color: black;
+		height: 100vh;
+		overflow: hidden !important;
+	}
+	.textbox4{
+		margin-right: 10vw;
+		margin-top: 33vh;
+		padding: 20px;
+		width: 40vw;
+		float: right;
+	}
+	.textbox4 h1{
+		color: white;
+		font-size: 7vw;
+	}
+	.textbox4 .subtitle{
+		margin-left: 1vw;
+		color: white;
+		font-size: 1.5vw;
+		margin-top: 0.5vh;
+	}
+	.textbox4 .paragraph{
+		margin-left: 1vw;
+		font-size: 1vw;
+		color: white;
 	}
 	.dropbtn {
 		display: none;
@@ -252,8 +207,17 @@ body{
 	.dropdown-content {
 		display: none;
 	}
-}
-
+	.nglogo{
+		display: none;
+	}
+	.sat_image{
+		margin-left: 2vw;
+		position: absolute;
+		transform: translateY(45%) rotate(20deg);
+		width: 100vh;
+		float: left;
+		overflow-x: hidden !important;
+	}
 @media (max-width: 1366px){
 	nav ul li a{
 		display: none;
@@ -316,68 +280,22 @@ body{
 		width: 40vw;
 		float: right;
 	}
-	.sat_image{
-		margin-left: -4vw;
-		transform: translateY(25%) rotate(20deg);
-	}
 	.textbox3 .subtitle{
 		margin-top: -4vh;
 	}
-}
-
-@media (max-width: 1024px) and (max-height: 1366px){
-	nav ul li a{
-		display: none;
-	}
-	.textbox1{
-		margin-left: 5vw;
-		margin-top: 10vh;
-
-	}
-	.textbox1 p{
-		margin-top: -2vh;
-		font-size: 1.5vh;
-	}
-	.textbox1 button{
-		font-size: 1.5vh;
-		margin-left: 1vw;
-	}
-	.car_image{
-		transform: translateY(40%) translateX(-20%);
-	}
-	.textbox2{
-		margin-right: 15vw;
-		margin-top: 20vh;
+	.textbox4{
+		margin-right: 10vw;
+		margin-top: 33vh;
 		padding: 20px;
 		width: 40vw;
 		float: right;
 	}
-	.textbox2 .subtitle, .textbox2 .paragraph{
-		font-size: 1.5vh;
-	}
-	.textbox2 .paragraph{
-		margin-top: 1vh;
-	}
 	.sat_image{
-		margin-left: -50vw;
-		margin-right: 0px;
-		transform: translateY(10%) rotate(12.5deg);
-	}
-	.textbox3{
-		margin-top: 8vw;
-	}
-	.textbox3 .subtitle{
-		margin-top: -1vh;
-	}
-	.textbox3 .subtitle, .textbox3 .paragraph{
-		font-size: 1.5vh;
-	}
-	.f35_image{
-		height: 70vw;
-		margin-right: 0px;
-		transform: translateX(-75%) translateY(88%)scaleX(1); 
+		margin-left: -10vw;
+		transform: translateY(35%) rotate(20deg);
 	}
 }
+
 @media (max-width: 1024px) and (max-height: 768px){
 	.textbox1{
 		margin-left: 5vw;
@@ -407,7 +325,7 @@ body{
 	.textbox2 .paragraph{
 		margin-top: 1vh;
 	}
-	.sat_image{
+	.saturn_image{
 		margin-left: -4vw;
 		transform: translateY(20%) rotate(20deg);
 	}
@@ -420,9 +338,20 @@ body{
 	.textbox3 .subtitle, .textbox3 .paragraph{
 		font-size: 2vh;
 	}
-	.f35_image{
+	.lrl_image{
 		height: 40vw;
 		transform: translateX(-60%) translateY(120%) rotate(20deg)scaleX(-1); 
+	}
+	.textbox4{
+		margin-right: 4vw;
+		margin-top: 25vh;
+		padding: 20px;
+		width: 40vw;
+		float: right;
+	}
+	.sat_image{
+		margin-left: -4vw;
+		transform: translateY(20%) rotate(20deg);
 	}
 }
 @media (max-width: 550px) and (max-height: 812px){
@@ -472,19 +401,22 @@ body{
 	.textbox2 .paragraph{
 		margin-top: 1vh;
 	}
-	.sat_image{
+	.saturn_image{
 		display: none;
 	}
-	.nglogo{
+	.satlogo{
 		display: block;
+		width: 80vw;
+		margin-left: 10vw;
 	}
 	.textbox3{
 		margin-top: 8vw;
 		width: 80vw;
 	}
-	.l3logo{
+	.lrllogo{
+		width: 80vw;
 		display: block;
-		transform: translateX(22vw)
+		transform: translateX(10vw)
 	}
 	.textbox3 .subtitle{
 		margin-top: -1vh;
@@ -492,8 +424,27 @@ body{
 	.textbox3 .subtitle, .textbox3 .paragraph{
 		font-size: 2vh;
 	}
-	.f35_image{
+	.lrl_image{
 		display: none;
+	}
+	.textbox4{
+		margin-right: 4vw;
+		margin-top: 5vh;
+		padding: 20px;
+		width: 80vw;
+		float: right;
+	}
+	.textbox4 .subtitle, .textbox4 .paragraph{
+		font-size: 2vh;
+	}
+	.textbox4 .paragraph{
+		margin-top: 1vh;
+	}
+	.sat_image{
+		display: none;
+	}
+	.nglogo{
+		display: block;
 	}
 }
 @media (max-width: 812px) and (max-height: 550px){
@@ -536,10 +487,10 @@ body{
 	.textbox2 .paragraph{
 		margin-top: 1vh;
 	}
-	.sat_image{
+	.saturn_image{
 		display: none;
 	}
-	.nglogo{
+	.satlogo{
 		display: block;
 		height: 45vh;
 		transform: translateX(70vw) translateY(-8vh)
@@ -559,12 +510,33 @@ body{
 	.textbox3 .subtitle, .textbox3 .paragraph{
 		font-size: 1.5vw;
 	}
-	.f35_image{
+	.lrl_image{
 		display: none; 
 	}
-	.l3logo{
+	.lrllogo{
 		display: block;
 		height: 50vh;
 		transform: translateY(20vh);
+	}
+	.textbox4{
+		margin-right: 14vw;
+		margin-top: 5vh;
+		padding: 20px;
+		width: 80vw;
+		float: right;
+	}
+	.textbox4 .subtitle, .textbox4 .paragraph{
+		font-size: 1.5vw;
+	}
+	.textbox4 .paragraph{
+		margin-top: 1vh;
+	}
+	.sat_image{
+		display: none;
+	}
+	.nglogo{
+		display: block;
+		height: 45vh;
+		transform: translateX(70vw) translateY(-8vh)
 	}
 }
