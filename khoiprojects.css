@@ -74,19 +74,19 @@ body{
 	}
 	.textbox1{
 		margin-left: 5vw;
-		margin-top: 25vh;
+		margin-top: 15vh;
 		padding: 20px;
 		width: 40vw;
-		float: left;
 	}
 	.textbox1 h1{
-		font-size: 17vw;
+		font-size: 6vw;
 	}
 	.textbox1 p{
 		font-size: 2vw;
-		margin-top: -5vh;
-		margin-left: 1vw;
+		margin-top: -10px;
+		margin-left: 0vw;
 	}
+
 	.textbox1 a{
 		font-size: 1vw;
 		margin-left: 40%;
@@ -97,14 +97,36 @@ body{
 		border: 2px solid #555555;
 		cursor: pointer;
 	}
-	.car_image{
-		transform: translateY(40%);
-		height: 65vh;
+	.textbox1a{
+		margin-left: 45vw;
+		margin-top: 10vh;
+		padding: 20px;
+		width: 50vw;
+	}
+	.textbox1a {
+		text-align: right;
+		font-size: 2vw
+	}
+	.saturn_image{
+		margin-left: 40vw;
+		transform: translateY(-180vh) rotate(30deg);
+		height: 200vh;
+		float: left;
 		position: absolute;
-		float: right;
 		overflow-x: hidden !important;
 	}
-
+	.liquid_image{
+		margin-left: 110vw;
+		height: 30vh;
+		transform: rotate(120deg) translateY(175vh);
+		float: left;
+		position: absolute;
+		overflow-x: hidden !important;
+	}
+	.lrl_logo{
+		display: none;
+	}
+}
 	.titlepage2{
 		width: 100%;
 		background-color: black;
@@ -140,6 +162,48 @@ body{
 		width: 100vh;
 		float: left;
 		overflow-x: hidden !important;
+	}
+	.nglogo{
+		display: none;
+	}
+	.l3logo{
+		display: none;
+	}
+	.dropbtn {
+		display: none;
+	}
+	.dropdown-content {
+		display: none;
+	}
+@media (max-width: 1920px) {
+	.textbox1a{
+		margin-left: 45vw;
+		margin-top: -10vh;
+		padding: 20px;
+		width: 50vw;
+	}
+	.textbox1a {
+		text-align: right;
+		font-size: 2vw
+	}
+	.saturn_image{
+		margin-left: 41vw;
+		transform: translateY(-180vh) rotate(30deg);
+		height: 200vh;
+		float: left;
+		position: absolute;
+		overflow-x: hidden !important;
+	}
+	.liquid_image{
+		margin-left: 97vw;
+		height: 30vh;
+		transform: rotate(120deg) translateY(175vh);
+		float: left;
+		position: absolute;
+		overflow-x: hidden !important;
+	}
+	.lrl_logo{
+		display: none;
 	}
 	.titlepage3{
 		width: 100%;
