@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content ="width=device-width, intitial-scale=1.0">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body> 
+        <nav class = "navbar navbar-default fixed-top navbar-expand-lg bg-dark">
+            <div class="container-fluid page1">
+                <div class="col-lg-8 offset-lg-1">
+                    <a href="#" class="navbar-brand nav-brand-text ms-auto">KHOI NGUYEN</a>
+                </div>
+                <div class="col-lg-4">
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Experience</a>
+                                <div class="dropdown-menu">
+                                    <a href="#nasa" class="dropdown-item">NASA JPL</a>
+                                    <a href="#" class="dropdown-item">Rivian</a>
+                                    <a href="#" class="dropdown-item">Northrop Grumman</a>
+                                </div>
+                            </div>
+                            <li class="nav-item nav-item-text">
+                                <a href="#projects" class="nav-link nav-item-text">Projects</a>
+                            </li>
+                            <li class="nav-item nav-item-text">
+                                <a href="#about" class="nav-link nav-item-text">About</a>
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </nav>
+        <div class="nasabackground">
+            <div id="nasa" class="page1">
+                <div class="container">
+
+                    <div class="page1contents d-flex flex-column justify-content-center">
+                        <div class="subtitle">HOME OF THOSE WHO DARE MIGHTY</div>
+                        <img class ="jpllogo" src="nasa.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page2">
+            <div class="container-fluid">
+                <div class="col-lg-8 offset-lg-1">
+                    <div class=" header h1">EUROPA CLIPPER</div>
+                    <div class="p">NASA's Europa Clipper will conduct detailed reconnaissance of Jupiter's moon Europa and investigate whether the icy moon could harbor conditions suitable for life.
+
+                        The mission will place a spacecraft in orbit around Jupiter in order to perform a detailed investigation of Europa -- a world that shows strong evidence for an ocean of liquid water beneath its icy crust and which could host conditions favorable for life. The mission will send a highly capable, radiation-tolerant spacecraft into a long, looping orbit around Jupiter to perform repeated close flybys of the icy moon.</div>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script>
+            window.addEventListener('scroll', function () {
+                const height = window.innerHeight*0.9;
+                let header = document.querySelector('nav');
+                let windowPosition = window.scrollY > height;
+                header.classList.toggle('scrolled', windowPosition);
+            })
+        </script>
+    </body>
+
+</html>
