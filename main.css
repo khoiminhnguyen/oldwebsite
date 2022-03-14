@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    word-wrap: break-word;
 }
 .a:active{
     color:white;
@@ -21,6 +22,10 @@ html{
     text-decoration: underline  0.4rem transparent;
     color: white;
     transition: text-decoration-color 0.5s;
+}
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
 }
 .dropdown-toggle:hover, .dropdown-toggle:visited{
     text-decoration-color: white !important;
@@ -58,6 +63,7 @@ html{
     height:100vh;
 }
 .nasabackground::before{
+    background-position: center;
     background-image: url(nasabackground.jpg);
     content: "";
     width: 100%;
@@ -82,4 +88,18 @@ html{
 
 .page2{
     height: 100vh;
+}
+
+.rivianbackground{
+    height:100vh;
+}
+.rivianbackground::before{
+    background-position: center;
+    background-image: url(rivianbackground.jpg);
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    filter: brightness(70%);
 }
