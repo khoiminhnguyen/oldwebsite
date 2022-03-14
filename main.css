@@ -67,8 +67,9 @@ html{
     background-size: cover;
     filter: brightness(70%);
 }
-.jpllogo{
+.logo{
     width: 40vh;
+    padding-top: 2vh;
     margin:0;
     height: auto;
     position: relative;
